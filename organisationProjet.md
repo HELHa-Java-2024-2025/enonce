@@ -145,6 +145,64 @@ La documentation sera évaluée selon les critères suivants :
 ### JavaDoc
 La documentation JavaDoc est-elle présente et est-elle suffisamment complète ? Est-elle de bonne qualité ? Les informations qu'on y trouve sont-elles pertinentes et utiles pour quelqu'un qui veut comprendre ou modifier le code ?
 
+## Grille d'évaluation
+
+### Projet (60%)
+
+*Important* : la quantité pondère la qualité. La note finale du projet sera donc calculée comme suit : quantité * qualité. Si vous avez 50% des fonctionnalités demandées et une qualité de 80%, vous aurez 50% * 80% = 40% pour le projet. Si vous avez 100% des fonctionnalités demandées et une qualité de 50%, vous aurez 100% * 50% = 50% pour le projet.
+
+1. **Conformité au cahier des charges (quantité) (100%)**
+  - Respect des fonctionnalités requises.
+  - Implémentation des exigences fonctionnelles et non-fonctionnelles.
+
+2. **Qualité du code (100%)**
+  - **Architecture MVC (20%)**
+    - Séparation claire des responsabilités entre les couches.
+    - Utilisation appropriée des contrôleurs.
+    - Implémentation correcte d'au moins 2 threads différents.
+    - Gestion appropriée de la synchronisation.
+  - **Réseau (12%)**
+    - Communication client-serveur fonctionnelle.
+    - Gestion de multiples clients.
+    - Protocole de communication clair.
+  - **Fichier (8%)**
+    - Lecture/écriture fonctionnelle.
+    - Gestion des erreurs.
+  - **Repositories et Services (12%)**
+    - Séparation claire des responsabilités.
+    - Encapsulation de la logique métier dans les services.
+    - Abstraction de l'accès aux données dans les repositories.
+  - **Base de données (12%)**
+    - Structure de base de données appropriée.
+    - Opérations CRUD fonctionnelles.
+    - Gestion des erreurs de connexion.
+  - **Design Patterns (12%)**
+    - Utilisation justifiée d'au moins un design pattern.
+    - Implémentation correcte.
+  - **Général (12%)**
+    - Respect des conventions de nommage.
+    - Absence de code obsolète ou dupliqué.
+    - Structure et organisation générale.
+  - **Tests unitaires (8%)**
+    - Couverture des fonctionnalités par les tests.
+    - Exactitude et qualité des tests.
+    - Automatisation des tests.
+  - **Documentation (4%)**
+    - Présence et qualité de la documentation JavaDoc.
+    - Pertinence et utilité des informations fournies.
+
+Si une des exigences est absente (réseau, tests, design pattern, ...), la note sera de moins de 10/20 pour le projet.
+
+### Défense orale (40%)
+
+  - Capacité à répondre individuellement aux questions sur le code, le design, la méthodologie, les tests, ...
+  - Connaissance approfondie des aspects techniques du projet.
+
+
+Pour rappel, la note finale sera calculée de la manière suivante:
+- en cas de note à la défense orale strictement inférieure à 8, cette note sera la note finale (note absorbante);
+- sinon, la note finale sera calculée selon la pondération donnée ci-dessus.
+
 ## Outils
 
 ### Outil de planification
@@ -175,14 +233,14 @@ Le client pourra éclaircir certains points restés ambigus ou incomplets. Sur c
 
 ## La fin du projet
 
-La fin du projet arrive lors de l'échéance du dernier sprint. Tous les livrables devront être déposés sur votre dépôt pour maximum le **vendredi 23 mai 2025** à 23h59.
+La fin du projet arrive lors de l'échéance du dernier sprint. Tous les livrables devront être déposés sur votre dépôt pour maximum le **lundi 9 juin 2025** à 18h00. Attention: ne passez pas votre temps sur le projet pendant vos examens. Je vous laisse du temps pour ceux qui en auraient besoin mais prenez en compte que vous devez aussi vous préparer pour vos examens. Il est donc préférable de finir le projet avant le début de la session d'examen.
 
-Vous défendez alors votre projet durant la session. Une vidéo de présentation de toutes les fonctionnalités présentes, des fonctionnalités non finalisées (par rapport à ce qui a été prévu) et de l'architecture du projet pourra être demandée avant le jour de la défense.
+Vous défendez alors votre projet durant la session. Une vidéo de présentation de toutes les fonctionnalités présentes, des fonctionnalités non finalisées (par rapport à ce qui a été prévu) et de l'architecture du projet vous est demandée pour la même date (le 9 juin 2025 à 18h00). Cette vidéo doit être d'une durée de 10 minutes maximum (faites concis mais complet) et doit être déposée sur Youtube. Le lien sera mis dans un fichier nommé "video.txt" sur la racine du dépôt Git de votre groupe.
 
-Lors de cette défense, vous passerez groupe par groupe. Vous présenterez en 10 minutes, toutes les fonctionnalités présentes, les fonctionnalités non finalisées (par rapport à ce qui a été prévu) et l'architecture du projet (c'est donc une redite de la vidéo, mais c'est pour se mettre dans le projet). Ensuite, le professeur posera des questions **individuellement** à chaque membre du groupe. Ces questions peuvent porter sur le code, le design, la méthodologie et les tests. Il sera donc nécessaire que chaque membre du groupe connaisse ces quatre aspects du projet pour pouvoir répondre correctement aux questions.
+Lors de cette défense, vous passerez groupe par groupe. Le professeur posera des questions **individuellement** à chaque membre du groupe. Ces questions peuvent porter sur le code, le design, la méthodologie, les tests, ... Il sera donc nécessaire que chaque membre du groupe connaisse ces quatre aspects du projet pour pouvoir répondre correctement aux questions.
 
-La cote finale sera calculée en fonction de la qualité de tous les livrables et les fonctionnalités réalisées (60%), ainsi qu'en fonction de la cote obtenue lors de la défense finale (pendant la session) (40%). **Attention : si la note de défense est strictement plus petite que 7/20, nous oublions la note du projet et la note de défense devient la note finale pour le cours.**
+La cote finale sera calculée en fonction de la qualité de tous les livrables et les fonctionnalités réalisées (60%), ainsi qu'en fonction de la cote obtenue lors de la défense finale (pendant la session) (40%). **Attention : si la note de défense est strictement plus petite que 8/20, nous oublions la note du projet et la note de défense devient la note finale pour le cours.**
 
-Pour la **seconde session** pour les projets, un nouveau projet sera à effectuer seul et à rendre pour une semaine avant l'examen (donc si l'examen a lieu le 25 août 2025, vous devez rendre votre projet le 18 août à 23h59 maximum). Un examen pratique durant la seconde session, incluant des modifications à faire dans un temps imparti, permettra de montrer vos capacités à développer en Java. Des questions orales peuvent être également posées. La répartition sera la même : 60% pour le projet et 40% pour l'examen. **Attention : si la note de défense est strictement plus petite que 7/20, nous oublions la note du projet et la note de l'examen devient la note finale pour le cours.**
+Pour la **seconde session** pour les projets, un nouveau projet sera à effectuer seul et à rendre pour une semaine avant l'examen (donc si l'examen a lieu le 25 août 2025, vous devez rendre votre projet le 18 août à 23h59 maximum). Un examen pratique durant la seconde session, incluant des modifications à faire dans un temps imparti, permettra de montrer vos capacités à développer en Java. Des questions orales peuvent être également posées. La répartition sera la même : 60% pour le projet et 40% pour l'examen. **Attention : si la note de défense est strictement plus petite que 8/20, nous oublions la note du projet et la note de l'examen devient la note finale pour le cours.**
 
 Les modalités de l'examen (vidéo, ordre de passage, ...) seront envoyées via Connected en temps voulu.
