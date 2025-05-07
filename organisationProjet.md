@@ -24,7 +24,7 @@ Les livrables à rendre pour chaque sprint doivent être déposés avant l'éch�
 La présence aux laboratoires organisés dans le cadre du projet sont obligatoires. Toute absence non justifiée sera sanctionnée sur la note finale.
 
 ### Composition des groupes
-Nous vous laissons le soin de former vos groupes de 6 étudiants. Cette composition doit être communiquée au plus tard le **mardi 28 février 2025** exclusivement via le FramaPad suivant [https://annuel.framapad.org/p/ba2---prog---groupes-acxo?lang=fr](https://annuel.framapad.org/p/ba2---prog---groupes-acxo?lang=fr).
+Nous vous laissons le soin de former vos groupes de 6 étudiants. Cette composition doit être communiquée au plus tard le **vendredi 28 février 2025** exclusivement via le FramaPad suivant [https://annuel.framapad.org/p/ba2---prog---groupes-acxo?lang=fr](https://annuel.framapad.org/p/ba2---prog---groupes-acxo?lang=fr).
 
 Si vous ne trouvez pas de groupe, il faut quand même remplir ce document pour cette date. **Après cette date, les étudiants n'ayant pas de groupe et n'ayant pas complété ce document auront une note de 0/20 au projet.**
 
